@@ -1,0 +1,31 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+main .bloc {
+  height: 100vh; }
+
+main .bcg-parallax {
+  padding: 200px 0;
+  position: relative;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+  overflow: hidden; }
+  main .bcg-parallax .bcg {
+    background: url(./spacex-GDdRP7U5ct0-unsplash.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    z-index: 1; }
+  main .bcg-parallax .content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+    z-index: 2; }
